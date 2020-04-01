@@ -5,9 +5,13 @@ namespace SoftwareProductStore.Infrastructure.Business
 {
     public class DeliveryOrder : IOrder
     {
+        /// <summary>
+        /// Размещение заказа на доставку определенного продукта
+        /// </summary>
+        /// <param name="product"> выбранный продукт </param>
         public void MakeOrder(Product product)
         {
-            // код покупки при размещении заказа на доставку
+            // далее должен быть написан код, срабатывающий при размещении заказа на доставку
         }
     }
 }

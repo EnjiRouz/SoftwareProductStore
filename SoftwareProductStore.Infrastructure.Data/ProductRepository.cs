@@ -10,7 +10,7 @@ namespace SoftwareProductStore.Infrastructure.Data
     public class ProductRepository: IProductRepository
     {
         private OrderContext dataBaseOrderContext;
- 
+        
         public ProductRepository()
         {
             this.dataBaseOrderContext = new OrderContext();
